@@ -1,2 +1,0 @@
-# ENJAD
-ENJAD Student organization
