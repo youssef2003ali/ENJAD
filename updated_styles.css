@@ -119,7 +119,7 @@ body {
 }
 
 .about-content {
-  height: 100vh;
+  height: auto; /* Remove fixed height */
 }
 
 .about-section h2 {
@@ -442,20 +442,24 @@ hr.rounded {
     font-size: 18px; 
   }
   .about-section h2 {
-    font-size: 2rem; 
+    font-size: 1.8rem; /* Scale headers */
+    text-align: center; /* Center-align text */
   }
-  .about-section .about-content p {
-    font-size: 1rem; 
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify; /* Better text alignment for readability */
   }
+  
   .card-container {
-    flex-direction: column; 
-    gap: 20px; 
+    flex-direction: column;
+    gap: 20px;
   }
-  .card {
-    width: 100%; 
-  }
-  .the-team {
-    justify-content: center; 
+  
+  .the-team-card {
+    width: 100%; /* Adjust team cards */
+    margin-bottom: 20px; /* Add spacing between cards */
   }
 }
 
@@ -481,7 +485,7 @@ hr.rounded {
 }
 
 .section {
-  padding: 50px 20px;
-  overflow: hidden;
+  padding: 30px 20px; /* Adjust padding */
+  margin-bottom: 30px; /* Reduce margin between sections */
 }
 
